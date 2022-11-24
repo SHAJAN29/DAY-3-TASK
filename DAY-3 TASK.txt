@@ -1,0 +1,105 @@
+1.
+
+const resume = {
+  "name": "shajan",
+  "age": "23",
+  "gender": "male",
+  "email": "m.j.sandy2913@gmail.com",
+  "study": ["bsc(viscual_communation)"],
+  "experience": ["internship in cauvery NEWS", "prasad corp ltd"],
+
+  "langauges_known": ["Tamil", "English", "telegu"],
+};
+for (let i = 0; i <resume.experience.length; i++) {
+    console.log(resume.experience[i]);
+  }
+
+output
+
+
+
+
+let arr = [
+  {
+    name: "shajan",
+    age: "23",
+  },
+  {
+    name: "priya",
+    age: "20",
+  },
+  {
+    name: "moses",
+    age: "50",
+  },
+  {
+    name:"jaya",
+    age:"45"  }
+]
+
+for (let i = 0; i <arr.length; i++) {
+  console.log(arr[i].name,":",arr[i].age);
+}
+output:
+shajan : 23
+priya : 20
+moses : 50
+jaya : 45
+
+for (let i in arr) {
+  console.log(arr[i].name);
+}
+
+output:
+shajan
+priya
+moses
+jaya
+
+2.create your resume?
+
+const resume = {
+  "name": "shajan",
+  "age": "23",
+  "gender": "male",
+  "email": "m.j.sandy2913@gmail.com",
+  "study": ["bsc(viscual_communation)"],
+  "experience": ["internship in cauvery NEWS", "prasad corp ltd"],
+
+  "langauges_known": ["Tamil", "English", "telegu"],
+};
+output:
+
+{name: 'shajan', age: '23', gender: 'male', email: 'm.j.sandy2913@gmail.com', study: Array(1), …}
+age
+: 
+"23"
+email
+: 
+"m.j.sandy2913@gmail.com"
+experience
+: 
+(2) ['internship in cauvery NEWS', 'prasad corp ltd']
+gender
+: 
+"male"
+langauges_known
+: 
+(3) ['Tamil', 'English', 'telegu']
+name
+: 
+"shajan"
+study
+: 
+['bsc(viscual_communation)']
+[[Prototype]]
+: 
+Object
+
+
+3.difference between window screen and document in javascript?
+
+Window is a global object,and dom is inside of window(bom),and screen is about the user's display.
+For exemple;
+Window.document
+window.screen
