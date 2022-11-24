@@ -16,7 +16,8 @@ for (let i = 0; i <resume.experience.length; i++) {
 
 output
 
-
+internship in cauvery NEWS
+script.js:12 prasad corp ltd
 
 
 let arr = [
