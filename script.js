@@ -1,3 +1,4 @@
+
 const resume = {
   "name": "shajan",
   "age": "23",
@@ -11,6 +12,23 @@ const resume = {
 for (let i = 0; i <resume.experience.length; i++) {
     console.log(resume.experience[i]);
   }
+for (let key in resume){
+
+  console.log(resume[key]);
+
+}
+
+for (let value of resume.langauges_known){
+
+  console.log(value);
+
+}
+
+let b =resume.langauges_known.forEach((element) => {
+ console.log(`${element+"s"}`)
+});
+
+
 
 
 let arr = [
